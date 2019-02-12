@@ -1,0 +1,116 @@
+ --- modulename: mpi_run, funcname: main
+mpi_run.py(12):     args = sys.argv[1:]
+mpi_run.py(13):     arg_parser = ArgParser()
+ --- modulename: arg_parser, funcname: __init__
+arg_parser.py(7):         self._table = dict()
+arg_parser.py(8):         return
+mpi_run.py(14):     arg_parser.load_args(args)
+ --- modulename: arg_parser, funcname: load_args
+arg_parser.py(15):         succ = True
+arg_parser.py(16):         vals = []
+arg_parser.py(17):         curr_key = ''
+arg_parser.py(19):         for str in arg_strs:
+arg_parser.py(20):             if not (self._is_comment(str)):
+ --- modulename: arg_parser, funcname: _is_comment
+arg_parser.py(106):         is_comment = False
+arg_parser.py(107):         if (len(str) > 0):
+arg_parser.py(108):             is_comment = str[0] == '#'
+arg_parser.py(110):         return is_comment
+arg_parser.py(21):                 is_key = self._is_key(str)
+ --- modulename: arg_parser, funcname: _is_key
+arg_parser.py(113):         is_key = False
+arg_parser.py(114):         if (len(str) >= 3):
+arg_parser.py(115):             is_key = str[0] == '-' and str[1] == '-'
+arg_parser.py(117):         return is_key
+arg_parser.py(22):                 if (is_key):
+arg_parser.py(23):                     if (curr_key != ''):
+arg_parser.py(27):                     vals = []
+arg_parser.py(28):                     curr_key = str[2::]
+arg_parser.py(19):         for str in arg_strs:
+arg_parser.py(20):             if not (self._is_comment(str)):
+ --- modulename: arg_parser, funcname: _is_comment
+arg_parser.py(106):         is_comment = False
+arg_parser.py(107):         if (len(str) > 0):
+arg_parser.py(108):             is_comment = str[0] == '#'
+arg_parser.py(110):         return is_comment
+arg_parser.py(21):                 is_key = self._is_key(str)
+ --- modulename: arg_parser, funcname: _is_key
+arg_parser.py(113):         is_key = False
+arg_parser.py(114):         if (len(str) >= 3):
+arg_parser.py(115):             is_key = str[0] == '-' and str[1] == '-'
+arg_parser.py(117):         return is_key
+arg_parser.py(22):                 if (is_key):
+arg_parser.py(30):                     vals.append(str)
+arg_parser.py(19):         for str in arg_strs:
+arg_parser.py(20):             if not (self._is_comment(str)):
+ --- modulename: arg_parser, funcname: _is_comment
+arg_parser.py(106):         is_comment = False
+arg_parser.py(107):         if (len(str) > 0):
+arg_parser.py(108):             is_comment = str[0] == '#'
+arg_parser.py(110):         return is_comment
+arg_parser.py(21):                 is_key = self._is_key(str)
+ --- modulename: arg_parser, funcname: _is_key
+arg_parser.py(113):         is_key = False
+arg_parser.py(114):         if (len(str) >= 3):
+arg_parser.py(115):             is_key = str[0] == '-' and str[1] == '-'
+arg_parser.py(117):         return is_key
+arg_parser.py(22):                 if (is_key):
+arg_parser.py(23):                     if (curr_key != ''):
+arg_parser.py(24):                         if (curr_key not in self._table):
+arg_parser.py(25):                             self._table[curr_key] = vals
+arg_parser.py(27):                     vals = []
+arg_parser.py(28):                     curr_key = str[2::]
+arg_parser.py(19):         for str in arg_strs:
+arg_parser.py(20):             if not (self._is_comment(str)):
+ --- modulename: arg_parser, funcname: _is_comment
+arg_parser.py(106):         is_comment = False
+arg_parser.py(107):         if (len(str) > 0):
+arg_parser.py(108):             is_comment = str[0] == '#'
+arg_parser.py(110):         return is_comment
+arg_parser.py(21):                 is_key = self._is_key(str)
+ --- modulename: arg_parser, funcname: _is_key
+arg_parser.py(113):         is_key = False
+arg_parser.py(114):         if (len(str) >= 3):
+arg_parser.py(117):         return is_key
+arg_parser.py(22):                 if (is_key):
+arg_parser.py(30):                     vals.append(str)
+arg_parser.py(19):         for str in arg_strs:
+arg_parser.py(32):         if (curr_key != ''):
+arg_parser.py(33):             if (curr_key not in self._table):
+arg_parser.py(34):                 self._table[curr_key] = vals
+arg_parser.py(36):             vals = []
+arg_parser.py(38):         return succ
+mpi_run.py(16):     num_workers = arg_parser.parse_int('num_workers', 1)
+ --- modulename: arg_parser, funcname: parse_int
+arg_parser.py(70):         val = default
+arg_parser.py(71):         if self.has_key(key):
+ --- modulename: arg_parser, funcname: has_key
+arg_parser.py(55):         return key in self._table
+arg_parser.py(72):             val = int(self._table[key][0])
+arg_parser.py(73):         return val
+mpi_run.py(17):     assert(num_workers > 0)
+mpi_run.py(19):     Logger.print('Running with {:d} workers'.format(num_workers))
+ --- modulename: logger, funcname: print
+logger.py(22):         if (MPIUtil.is_root_proc()):
+ --- modulename: mpi_util, funcname: is_root_proc
+mpi_util.py(13):     rank = get_proc_rank()
+ --- modulename: mpi_util, funcname: get_proc_rank
+mpi_util.py(10):     return MPI.COMM_WORLD.Get_rank()
+mpi_util.py(14):     return rank == ROOT_PROC_RANK
+logger.py(23):             print(str)
+Running with 2 workers
+logger.py(24):         return
+mpi_run.py(20):     cmd = 'mpiexec -n {:d} python DeepMimic_Optimizer.py '.format(num_workers)
+mpi_run.py(21):     cmd += ' '.join(args)
+mpi_run.py(22):     Logger.print('cmd: ' + cmd)
+ --- modulename: logger, funcname: print
+logger.py(22):         if (MPIUtil.is_root_proc()):
+ --- modulename: mpi_util, funcname: is_root_proc
+mpi_util.py(13):     rank = get_proc_rank()
+ --- modulename: mpi_util, funcname: get_proc_rank
+mpi_util.py(10):     return MPI.COMM_WORLD.Get_rank()
+mpi_util.py(14):     return rank == ROOT_PROC_RANK
+logger.py(23):             print(str)
+cmd: mpiexec -n 2 python DeepMimic_Optimizer.py --arg_file args/train_humanoid3d_spinkick_args.txt --num_workers 2
+logger.py(24):         return
+mpi_run.py(23):     subprocess.call(cmd, shell=True)

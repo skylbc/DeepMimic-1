@@ -33,7 +33,7 @@ def main():
     # Command line arguments
     args = sys.argv[1:]
 
-    world = build_world(args, enable_draw=True)
+    world = build_world(args, enable_draw=False)
 
     run()
     shutdown()

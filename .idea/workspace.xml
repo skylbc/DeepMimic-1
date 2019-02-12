@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae8fde4f-7f42-4c08-8655-73d17ef3be37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepMimic.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepMimicCore/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepMimic_Optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimic_Optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mpi_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpi_run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepMimic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeepMimic_Optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="-177">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,10 +27,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeepMimic_Optimizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learning/ppo_agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="543">
+              <caret line="244" selection-start-line="244" selection-end-line="244" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -154,6 +161,7 @@
         <option value="$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt" />
         <option value="$PROJECT_DIR$/mpi_run.py" />
         <option value="$PROJECT_DIR$/DeepMimic_Optimizer.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -285,13 +293,13 @@
     <frame x="64" y="-11" width="1857" height="1212" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23034935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23034935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" weight="0.32961932" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39925718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" weight="0.32961932" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39925718" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -303,6 +311,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debug commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -800,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/ppo_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="543">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -810,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepMimic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="-177">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -820,11 +832,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepMimic_Optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>

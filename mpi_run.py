@@ -1,7 +1,11 @@
 import sys
 import subprocess
+
+from mpi4py.MPI import COMM_WORLD
+
 from util.arg_parser import ArgParser
 from util.logger import Logger
+import trace
 
 def main():
     # Command line arguments
@@ -19,5 +23,18 @@ def main():
     subprocess.call(cmd, shell=True)
     return
 
+# tracer = trace.Trace(
+#     ignoredirs=[sys.prefix, sys.exec_prefix],
+#     ignoremods=[
+#         'inspect', 'contextlib', '_bootstrap',
+#         '_weakrefset', 'abc', 'posixpath', 'genericpath', 'textwrap'
+#     ],
+#     trace=1,
+#     count=0)
+
+
 if __name__ == '__main__':
+    #sys.stdout = open('trace_{:04d}.txt'.format(COMM_WORLD.rank), 'w')
+    #tracer.runfunc(main)
     main()
+

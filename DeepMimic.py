@@ -266,9 +266,9 @@ def mouse_move(x, y):
 def init_draw():
     glutInit()  
     
-    glutInitContextVersion(3, 2)
-    glutInitContextFlags(GLUT_FORWARD_COMPATIBLE)
-    glutInitContextProfile(GLUT_CORE_PROFILE)
+    #glutInitContextVersion(3, 2)
+    #glutInitContextFlags(GLUT_FORWARD_COMPATIBLE)
+    #glutInitContextProfile(GLUT_CORE_PROFILE)
 
     glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH)
     glutInitWindowSize(win_width, win_height)

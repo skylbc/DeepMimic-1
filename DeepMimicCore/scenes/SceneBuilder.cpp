@@ -15,10 +15,12 @@ void cSceneBuilder::BuildScene(const std::string& scene_name, std::shared_ptr<cS
 	}
 	else if (scene_name == "kin_char")
 	{
+		    printf("scene kin_char\n");
 		out_scene = std::shared_ptr<cSceneKinChar>(new cSceneKinChar());
 	}
 	else if (scene_name == "imitate")
 	{
+			printf("scene imitate\n");
 		out_scene = std::shared_ptr<cSceneImitate>(new cSceneImitate());
 	}
 	else
@@ -37,10 +39,12 @@ void cSceneBuilder::BuildDrawScene(const std::string& scene_name, std::shared_pt
 	}
 	else if (scene_name == "kin_char")
 	{
+	    printf("scene kin_char\n");
 		out_scene = std::shared_ptr<cDrawSceneKinChar>(new cDrawSceneKinChar());
 	}
 	else if (scene_name == "imitate")
 	{
+		printf("scene imitate\n");
 		out_scene = std::shared_ptr<cDrawSceneImitate>(new cDrawSceneImitate());
 	}
 	else

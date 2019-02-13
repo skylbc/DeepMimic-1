@@ -1,3 +1,5 @@
+# Source : https://github.com/xbpeng/DeepMimic
+
 # Intro 
 
 Code accompanying the SIGGRAPH 2018 paper:
@@ -107,6 +109,11 @@ To run your own policies, take one of the `run_[something]_args.txt` files and s
 the policy you want to run with `--model_file`. Make sure that the reference motion `--motion_file`
 corresponds to the motion that your policy was trained for, otherwise the policy will not run properly.
 
+To train a policy, run and **Debug** the code `DeepMimic_Optimizer.py` by specifying an argument file and the number of worker processes.
+For example,
+```
+python DeepMimic_Optimizer.py --arg_file args/train_humanoid3d_spinkick_args.txt --num_workers 4
+```
 
 ## Interface
 - the plot on the top-right shows the predictions of the value function

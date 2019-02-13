@@ -6,6 +6,15 @@
 
 double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKinCharacter& kin_char) const
 {
+
+    FILE *f = fopen("debug1.txt", "a");
+    if (f == NULL){
+        printf("Error opening file!\n");
+        exit(1);
+    }
+    int k = 1;
+    fprintf(f,"******************************************************************************\n ",k);
+
 	double pose_w = 0.5;
 	double vel_w = 0.05;
 	double end_eff_w = 0.15;
@@ -95,7 +104,17 @@ double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKi
 			double curr_end_err = (pos_rel1 - pos_rel0).squaredNorm();
 			end_eff_err += curr_end_err;
 			++num_end_effs;
+			//fprintf(f,"*************If end effector task *************\n ");
+			//fprintf(f,"ground_h0 : %lf\n ",ground_h0);
+	        //fprintf(f,"ground_h1 : %lf\n ",ground_h1);
+	        //fprintf(f,"curr_end_err : %lf\n ",curr_end_err);
+	        //fprintf(f,"*****************************************************************\n ");
 		}
+        //fprintf(f,"*************Number of joints loop :%d *************\n ",j);
+	    //fprintf(f,"w : %lf\n ",w);
+	    //fprintf(f,"curr_pose_err : %lf\n ",curr_pose_err);
+	    //fprintf(f,"curr_vel_err : %lf\n ",curr_vel_err);
+	    //fprintf(f,"*****************************************************************\n ");
 	}
 
 	if (num_end_effs > 0)
@@ -130,6 +149,48 @@ double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKi
 	reward = pose_w * pose_reward + vel_w * vel_reward + end_eff_w * end_eff_reward
 		+ root_w * root_reward + com_w * com_reward;
 
+
+	fprintf(f,"*************Reward Calculation************* \n ");
+//	fprintf(f,"pose_w: %lf\n ",pose_w);
+//	fprintf(f,"vel_w: %lf\n ",vel_w);
+//	fprintf(f,"end_eff_w :%lf \n",end_eff_w);
+//	fprintf(f,"root_w :%lf \n ",root_w);
+//	fprintf(f,"com_w :%lf \n ",com_w);
+//	fprintf(f,"total_w :%lf \n ",total_w);
+//	fprintf(f,"pose_scale : %lf\n ",pose_scale);
+//	fprintf(f,"vel_scale : %lf\n ",vel_scale);
+//	fprintf(f,"end_eff_scale : %lf\n ",end_eff_scale);
+//	fprintf(f,"root_scale : %lf\n ",root_scale);
+//	fprintf(f,"com_scale : %lf\n ",com_scale);
+//	fprintf(f,"err_scale : %lf\n ",err_scale);
+	//printf("pose0 : %lf\n ",pose0);
+	//printf("vel0 : %lf\n ",vel0);
+	//printf("pose1 : %lf\n ",pose1);
+	//printf("vel1 : %lf\n ",vel1);
+	fprintf(f,"pose_err : %lf\n ",pose_err);
+	fprintf(f,"vel_err : %lf\n ",vel_err);
+	fprintf(f,"end_eff_err : %lf\n ",end_eff_err);
+	fprintf(f,"root_err : %lf\n ",root_err);
+	fprintf(f,"com_err : %lf\n ",com_err);
+	fprintf(f,"heading_err : %lf\n ",heading_err);
+	fprintf(f,"num_end_effs: %d\n ",num_end_effs);
+	fprintf(f,"num_joints: %d\n ",num_joints);
+	fprintf(f,"root_rot_w :%lf \n",root_rot_w);
+	fprintf(f,"root_ground_h0 :%lf \n ",root_ground_h0);
+	fprintf(f,"root_ground_h1 :%lf \n ",root_ground_h1);
+	fprintf(f,"root_pos_err :%lf \n ",root_pos_err);
+	fprintf(f,"root_rot_err : %lf\n ",root_rot_err);
+	fprintf(f,"root_vel_err : %lf\n ",root_vel_err);
+	fprintf(f,"root_ang_vel_err : %lf\n ",root_ang_vel_err);
+	fprintf(f,"pose_reward : %lf\n ",pose_reward);
+	fprintf(f,"vel_reward : %lf\n ",vel_reward);
+	fprintf(f,"end_eff_reward : %lf\n ",end_eff_reward);
+	fprintf(f,"root_reward : %lf\n ",root_reward);
+	fprintf(f,"com_reward : %lf\n ",com_reward);
+	fprintf(f,"reward : %lf\n ",reward);
+    fprintf(f,"*************************************End*****************************************\n ",k);
+
+    fclose(f);
 	return reward;
 }
 

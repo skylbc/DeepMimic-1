@@ -191,6 +191,7 @@ class ReplayBuffer(object):
             val = getattr(path, key)
             if not key.startswith('__') and not inspect.ismethod(val):
                 if key == self.TERMINATE_KEY:
+                    Logger.print('Termination key excuted')
                     self.buffers[self.TERMINATE_KEY] = np.zeros(shape=[self.buffer_size], dtype=int)
                 else:
                     val_type = type(val[0])

@@ -9,6 +9,7 @@ import util.mpi_util as MPIUtil
 args = []
 world = None
 
+
 def run():
     global update_timestep
     global world
@@ -19,12 +20,14 @@ def run():
 
     return
 
+
 def shutdown():
     global world
 
     Logger.print('Shutting down...')
     world.shutdown()
     return
+
 
 def main():
     global args
@@ -39,6 +42,7 @@ def main():
     shutdown()
 
     return
+
 
 if __name__ == '__main__':
     main()

@@ -38,6 +38,9 @@ void cDeepMimicCore::ParseArgs(const std::vector<std::string>& args)
 			printf("Failed to load args from: %s\n", arg_file.c_str());
 			assert(false);
 		}
+		else{
+		    printf("Successfully to load args from: %s\n", arg_file.c_str());
+		}
 	}
 
 	mArgParser->ParseInt("num_update_substeps", mNumUpdateSubsteps);

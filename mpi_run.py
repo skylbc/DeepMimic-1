@@ -1,8 +1,5 @@
 import sys
 import subprocess
-
-from mpi4py.MPI import COMM_WORLD
-
 from util.arg_parser import ArgParser
 from util.logger import Logger
 import trace

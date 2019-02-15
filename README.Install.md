@@ -120,4 +120,28 @@ Misc:
 - MPI 
  `sudo apt install libopenmpi-dev`
  
+ # Deep Mimic Configuration and Execution
 
+If everything is successfully installed as stated above and Mainly Bullet installed and checked the linking in `usr/include`.
+
+Then
+```
+pip install -r requirements.txt
+```
+
+1. Modify the `Makefile` in `DeepMimicCore/` by specifying the following,
+	- `EIGEN_DIR`: Eigen include directory
+	- `BULLET_INC_DIR`: Bullet source directory
+	- `PYTHON_INC`: python include directory
+	- `PYTHON_LIB`: python lib directory
+
+2. Build wrapper,
+	```
+	make python
+	```
+This should generate `DeepMimicCore.py` in `DeepMimicCore/`
+but with some warning.
+
+# How to Use
+Follow the Repo: [https://github.com/bsivanantham/DeepMimic](https://github.com/bsivanantham/DeepMimic)
+README.md

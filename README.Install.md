@@ -5,6 +5,8 @@ Project page: [https://xbpeng.github.io/projects/DeepMimic/index.html](https://x
 
 Repo: [https://github.com/bsivanantham/DeepMimic](https://github.com/bsivanantham/DeepMimic) 
 
+Note : It is better to use conda venv and python3.6. (Not compulsory)
+
 ## Bullet 2.87
 
 [ https://github.com/bulletphysics/bullet3/archive/2.87.tar.gz]( https://github.com/bulletphysics/bullet3/archive/2.87.tar.gz)
@@ -117,3 +119,5 @@ Misc:
 - SWIG (http://www.swig.org/)
 - MPI 
  `sudo apt install libopenmpi-dev`
+ 
+

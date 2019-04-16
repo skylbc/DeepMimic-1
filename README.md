@@ -1,5 +1,5 @@
 # Source : https://github.com/xbpeng/DeepMimic
-https://docs.google.com/presentation/d/1nCGmu3umdAb9jJhO_OXwgR80ss-tSMaQqGNcUFYetgY/edit?usp=sharing
+
 # Intro 
 
 Code accompanying the SIGGRAPH 2018 paper:

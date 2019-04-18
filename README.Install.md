@@ -45,6 +45,7 @@ If the file is not available manually run ```gcc -I ``` and missing files names 
 Before starting, create another directory which we will call 'build_dir'.
 
 ```
+mkdir build_dir
 cd build_dir
 cmake ..
 make install 

@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp" line="192" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ae8fde4f-7f42-4c08-8655-73d17ef3be37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DeepMimic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepMimic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/DeepMimicCore_wrap.o" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/DeepMimicCore_wrap.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/_DeepMimicCore.so" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/_DeepMimicCore.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/objs/Main.o" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/objs/Main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/objs/scenes/SceneImitate.o" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/objs/scenes/SceneImitate.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/kin_char_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/args/kin_char_args.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/run_humanoid3d_run_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/args/run_humanoid3d_run_args.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/train_humanoid3d_run_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/args/train_humanoid3d_run_args.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt" beforeDir="false" afterPath="$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mpi_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/mpi_run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,89 +30,161 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepMimic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_backflip_args.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/characters/humanoid3d.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneSimChar.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="422" selection-start-line="422" selection-end-line="422" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_spin_args.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="471" column="8" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_getup_facedown_args.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/args/kin_char_args.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5268676">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimic.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4515">
+                  <caret line="314" selection-start-line="314" selection-end-line="314" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/env/deepmimic_env.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="9510">
+                  <caret line="634" selection-start-line="634" selection-end-line="634" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="525">
+                  <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneBuilder.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.h">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="615">
+                  <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/DeepMimicCore/Makefile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/learning/ppo_agent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_spin.txt">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/characters/humanoid3d.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="720">
+                  <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_cartwheel_args.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_backflip_args.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" selection-start-line="29" selection-end-line="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_cartwheel.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,36 +195,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>terminate</find>
-      <find>Exp_Noise</find>
-      <find>Adv_Mean</find>
-      <find>RLWorld</find>
-      <find>critic_tf</find>
-      <find>tar_val_tf</find>
-      <find>a_mean_tf</find>
-      <find>a_tf</find>
-      <find>norm_a_std_tf</find>
-      <find>actor_loss1</find>
-      <find>adv_tf</find>
-      <find>logp_tf</find>
-      <find>TFUtil</find>
-      <find>critic_loss_tf</find>
-      <find>norm_val_diff</find>
-      <find>ratio_tf</find>
+      <find>pose_err</find>
+      <find>keyfra</find>
+      <find>return reward</find>
+      <find>pose1</find>
+      <find>reference m</find>
       <find>motion_file</find>
-      <find>mSyncCharRootPos</find>
-      <find>drot</find>
-      <find>world_scale</find>
+      <find>mMotionFile</find>
+      <find>Simbox</find>
+      <find>clip</find>
+      <find>False</find>
+      <find>int_output_path</find>
       <find>char_types</find>
       <find>char_type_strs</find>
-      <find>enable_char_soft_contact</find>
-      <find>char_ctrls</find>
-      <find>char_ctrl_strs</find>
-      <find>sync_char_root_pos</find>
-      <find>sync_char_root_rot</find>
-      <find>mSyncCharRootRot</find>
-      <find>sim_root_pos</find>
-      <find>AttachThetaX</find>
+      <find>build</find>
+      <find>init_draw()</find>
+      <find>glutInitContextVersion</find>
+      <find>msgpack2json</find>
+      <find>Malloc</find>
+      <find>glutInitContextVersion(3, 2)</find>
+      <find>InitDraw</find>
+      <find>build_world</find>
+      <find>cDeepMimicCore_Init</find>
+      <find>init</find>
+      <find>SetupScene</find>
+      <find>cSceneImitate</find>
+      <find>*** Process received signal ***</find>
+      <find>Signal: Bus error</find>
+      <find>root_w</find>
+      <find>root_scale</find>
+      <find>thread</find>
     </findStrings>
     <replaceStrings>
       <replace>fprintf(f,</replace>
@@ -149,22 +239,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/learning/ppo_agent.py" />
-        <option value="$PROJECT_DIR$/mpi_run.py" />
-        <option value="$PROJECT_DIR$/DeepMimic_Optimizer.py" />
         <option value="$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.cpp" />
         <option value="$PROJECT_DIR$/DeepMimicCore/scenes/SceneBuilder.cpp" />
         <option value="$PROJECT_DIR$/debug.txt" />
-        <option value="$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp" />
         <option value="$PROJECT_DIR$/learning/replay_buffer.py" />
-        <option value="$PROJECT_DIR$/data/motions/humanoid3d_spinkick.txt" />
-        <option value="$PROJECT_DIR$/DeepMimic.py" />
-        <option value="$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt" />
         <option value="$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt" />
         <option value="$PROJECT_DIR$/data/characters/humanoid3d.txt" />
+        <option value="$PROJECT_DIR$/data/motions/humanoid3d_spinkick.txt" />
+        <option value="$PROJECT_DIR$/args/run_humanoid3d_run_args.txt" />
+        <option value="$PROJECT_DIR$/args/train_humanoid3d_run_args.txt" />
+        <option value="$PROJECT_DIR$/args/kin_char_args.txt" />
+        <option value="$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.py" />
+        <option value="$PROJECT_DIR$/DeepMimicCore/Makefile" />
+        <option value="$PROJECT_DIR$/DeepMimic.py" />
+        <option value="$PROJECT_DIR$/DeepMimicCore/Main.cpp" />
+        <option value="$PROJECT_DIR$/mpi_run.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/DeepMimic_Optimizer.py" />
+        <option value="$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -189,35 +285,17 @@
             <path>
               <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
-              <item name="args" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="characters" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="syncpos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepMimic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepMimic" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-              <item name="syncrot" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,8 +305,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DeepMimic_Optimizer.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mpi_run.py" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,7 +321,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DeepMimic">
+  <component name="RunManager" selected="Python.DeepMimic_Optimizer">
+    <configuration name="DeepMimic run_humanoid3d" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepMimic" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepMimic.py" />
+      <option name="PARAMETERS" value="--arg_file args/run_humanoid3d_run_args.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="DeepMimic" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="DeepMimic" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,13 +350,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../miniconda3/envs/RL/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepMimic.py" />
-      <option name="PARAMETERS" value="--arg_file args/run_humanoid3d_spinkick_args.txt" />
+      <option name="PARAMETERS" value="--arg_file args/kin_char_args.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -271,13 +371,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../miniconda3/envs/RL/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepMimic_Optimizer.py" />
-      <option name="PARAMETERS" value="--arg_file args/train_humanoid3d_spinkick_args.txt" />
+      <option name="PARAMETERS" value="--arg_file args/train_humanoid3d_roll_args.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -292,13 +392,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../miniconda3/envs/RL/bin/python" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mpi_run.py" />
-      <option name="PARAMETERS" value="--arg_file args/train_humanoid3d_spinkick_args.txt" />
+      <option name="PARAMETERS" value="--arg_file args/train_humanoid3d_run_args.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -328,9 +428,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.DeepMimic run_humanoid3d" />
       <item itemvalue="Python.DeepMimic" />
-      <item itemvalue="Python.mpi_run" />
       <item itemvalue="Python.DeepMimic_Optimizer" />
+      <item itemvalue="Python.mpi_run" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
@@ -352,22 +453,31 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1204" extended-state="6" />
+    <frame x="64" y="-4" width="1857" height="1205" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22216158" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8614009" visible="true" weight="0.16703057" />
+      <window_info id="Structure" order="1" sideWeight="0.13859911" side_tool="true" weight="0.15065502" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" weight="0.39275765" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29340762" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" weight="0.069028154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3551317" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32970026" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961932" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961932" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991612" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.32961932" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,18 +485,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16866812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22216158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" weight="0.39275765" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39925718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945414" visible="true" weight="0.41225627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29340762" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32961932" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32961932" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054586" side_tool="true" weight="0.32961932" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -468,7 +578,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/mpi_run.py</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -606,6 +716,16 @@
           <line>8</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DeepMimic.py</url>
+          <line>315</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.py</url>
+          <line>636</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -651,282 +771,199 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_spinkick.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="104" selection-start-line="21" selection-start-column="104" selection-end-line="21" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2889264">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/numpy/core/getlimits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="514" selection-start-line="514" selection-end-line="514" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/replay_buffer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learning/rl_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="245" selection-start-line="245" selection-end-line="245" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/layers/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1294">
-          <caret line="176" column="58" lean-forward="true" selection-start-line="176" selection-start-column="58" selection-end-line="176" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="1122" selection-start-line="1122" selection-end-line="1122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/nets/fc_2layers_1024units.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/nets/net_builder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6481" selection-start-line="6481" selection-end-line="6481" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="2900" selection-start-line="2900" selection-end-line="2900" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="1447" column="35" lean-forward="true" selection-start-line="1447" selection-start-column="34" selection-end-line="1447" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/tf_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/training/momentum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="72" column="37" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="629" selection-start-line="629" selection-end-line="629" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/training/optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="571" selection-start-line="571" selection-end-line="571" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/ops/variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="2853" selection-start-line="2853" selection-end-line="2853" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/solvers/mpi_solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/tensorflow/python/training/saver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="1083" selection-start-line="1083" selection-end-line="1083" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/mpi_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/normalizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learning/tf_normalizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="7515">
+          <caret line="515" selection-start-line="515" selection-end-line="515" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/learning/tf_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="1980">
+          <caret line="138" column="61" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/ppo_agent.py">
+    <entry file="file://$PROJECT_DIR$/debug1.txt" />
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_roll_args.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_punch_args.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state>
+          <caret column="15" selection-start-column="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/arg_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="462">
+            <caret line="164" column="23" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_spin_args.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_kick_args.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/sim/SimBox.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/agent_builder.py">
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_walk_args.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneSimChar.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="202">
+          <caret line="361" column="26" selection-start-line="361" selection-start-column="26" selection-end-line="361" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/pg_agent.py">
+    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_run_args.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learning/rl_world.py">
+    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_walk_args.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="270">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/env/deepmimic_env.py">
+    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/kin_char_args.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.Install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../miniconda3/envs/RL/lib/python3.6/site-packages/OpenGL/GLUT/freeglut.py" />
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/objs/scenes/SceneImitate.o">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore_wrap.cxx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="321" column="56" lean-forward="true" selection-start-line="321" selection-start-column="56" selection-end-line="321" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../anaconda3/envs/deepmimic/lib/python3.6/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_run_args.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mpi_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.sln">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_walk.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/textures/grid0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/conda">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/teaser.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepMimic_Optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="480">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_run.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4515">
+          <caret line="314" selection-start-line="314" selection-end-line="314" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -935,93 +972,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        <state relative-caret-position="9510">
+          <caret line="634" selection-start-line="634" selection-end-line="634" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepMimic.py">
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/DeepMimicCore.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneBuilder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepMimicCore/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/ppo_agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_backflip.txt">
+    <entry file="file://$PROJECT_DIR$/env/deepmimic_env.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="276">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_spin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/characters/humanoid3d.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_cartwheel_args.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/motions/humanoid3d_cartwheel.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneKinChar.cpp">
+    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_backflip_args.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/args/kin_char_args.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_getup_facedown_args.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_spin_args.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneSimChar.cpp">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="422" selection-start-line="422" selection-end-line="422" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepMimicCore/scenes/SceneImitate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="471" column="8" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_backflip_args.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args/train_humanoid3d_spinkick_args.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/args/run_humanoid3d_spinkick_args.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/characters/humanoid3d.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="55" column="40" lean-forward="true" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>

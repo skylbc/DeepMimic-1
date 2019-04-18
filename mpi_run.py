@@ -15,6 +15,7 @@ def main():
 
     Logger.print('Running with {:d} workers'.format(num_workers))
     cmd = 'mpiexec -n {:d} python DeepMimic_Optimizer.py '.format(num_workers)
+    #cmd = 'mpiexec python DeepMimic_Optimizer.py '.format(num_workers)
     cmd += ' '.join(args)
     Logger.print('cmd: ' + cmd)
     subprocess.call(cmd, shell=True)

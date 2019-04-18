@@ -7,14 +7,14 @@
 double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKinCharacter& kin_char) const
 {
 
-    FILE *f = fopen("debug1.txt", "a");
+    /*FILE *f = fopen("debug1.txt", "a");
     if (f == NULL){
         printf("Error opening file!\n");
         exit(1);
     }
     int k = 1;
     fprintf(f,"******************************************************************************\n ",k);
-
+*/
 	double pose_w = 0.5;
 	double vel_w = 0.05;
 	double end_eff_w = 0.15;
@@ -150,7 +150,7 @@ double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKi
 		+ root_w * root_reward + com_w * com_reward;
 
 
-	fprintf(f,"*************Reward Calculation************* \n ");
+	//fprintf(f,"*************Reward Calculation************* \n ");
 //	fprintf(f,"pose_w: %lf\n ",pose_w);
 //	fprintf(f,"vel_w: %lf\n ",vel_w);
 //	fprintf(f,"end_eff_w :%lf \n",end_eff_w);
@@ -167,7 +167,7 @@ double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKi
 	//printf("vel0 : %lf\n ",vel0);
 	//printf("pose1 : %lf\n ",pose1);
 	//printf("vel1 : %lf\n ",vel1);
-	fprintf(f,"pose_err : %lf\n ",pose_err);
+	/*fprintf(f,"pose_err : %lf\n ",pose_err);
 	fprintf(f,"vel_err : %lf\n ",vel_err);
 	fprintf(f,"end_eff_err : %lf\n ",end_eff_err);
 	fprintf(f,"root_err : %lf\n ",root_err);
@@ -190,7 +190,7 @@ double cSceneImitate::CalcRewardImitate(const cSimCharacter& sim_char, const cKi
 	fprintf(f,"reward : %lf\n ",reward);
     fprintf(f,"*************************************End*****************************************\n ",k);
 
-    fclose(f);
+    fclose(f);*/
 	return reward;
 }
 

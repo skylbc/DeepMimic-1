@@ -18,7 +18,6 @@
 
 .vs/
 __pycache__/
-output/
 x64/
 Debug/
 Release/external/
